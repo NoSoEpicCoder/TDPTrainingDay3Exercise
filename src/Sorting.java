@@ -1,19 +1,22 @@
 public class Sorting {
     public static void main(String[] args){
-        /*int[] arraySortBubble = {18, 35, 32, 8, 22, 1, 27};
+        //Testing out the bubble sort to the console
+        int[] arraySortBubble = {18, 35, 32, 8, 22, 1, 27};
         bubbleSort(arraySortBubble);
         for (int num : arraySortBubble) {
             System.out.println(num);
-        }*/
+        }
 
-        /*int[] arraySortQuick = {18, 35, 32, 8, 22, 39, 7};
+        //Testing out the quick sort to the console
+        int[] arraySortQuick = {18, 35, 32, 8, 22, 39, 7};
         quickSort(arraySortQuick);
         for (int num : arraySortQuick) {
             System.out.println(num);
-        }*/
+        }
 
-        //int[] arraySearch = {2, 5, 7, 8, 10, 12, 15};
-        //System.out.println(binarySearch(arraySearch, 10));
+        //Testing out the binary search to the console
+        int[] arraySearch = {2, 5, 7, 8, 10, 12, 15};
+        System.out.println(binarySearch(arraySearch, 10));
     }
 
     public static int[] bubbleSort(int[] inputArray){
